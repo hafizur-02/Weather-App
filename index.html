@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- css style link -->
+    <link rel="stylesheet" href="Sass/style.css">
+    <!-- google font awesome -->
+    <script src="https://kit.fontawesome.com/1a847c12ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="weather_app">
+        <div class="app_container">
+            <div class="search_field">
+                <input type="text" class="text_box" id="text_box" placeholder="Enter Your City">
+                <button class="search_btn" id="search_btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="weather_info">
+                <h3 class="city_name">Weather in City</h3>
+                <h2 id="temp">0.00°C</h2>
+                <div class="weather" id="weather">
+                    <img  src="http://openweathermap.org/img/w/03d.png" alt="">
+                    <p>Weather Position</p>
+                </div>
+                <p id="humidity">Humidity : 00%</p>
+                <p id="wind">Wind : 0.0km/h</p>
+            </div>
+        </div>
+    </div>
+    <!-- js script link -->
+    <script src="./Js/app.js"></script>
+</body>
+</html>
